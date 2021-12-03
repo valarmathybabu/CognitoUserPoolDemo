@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
   
     email: string = '';
    
-    pwd: string = '';
+    pwd: string = ''; 
    
     constructor(private router: Router) { }
    
