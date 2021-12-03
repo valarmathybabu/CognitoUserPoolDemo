@@ -1,0 +1,19 @@
+<form>
+    <div>
+        <label for="email">
+             Email Address
+        </label>
+        <input name="email" type="email" [(ngModel)]="email" required placeholder="Enter Email Address">
+    </div>
+    <div>
+        <label for="password">
+            Password
+        </label>
+        <input name="password" type="password" [(ngModel)]="pwd" required placeholder="Enter password">
+    </div>
+    <div>
+        <br>
+        <button class="btn btn-primary btn-block" (click)="loginwithCognito()" type="button">Log In </button>
+    </div>
+</form>
+<p class="text-dark mb-0">Not a member?<a href="/sign-up" class="text-primary ml-1">Sign Up now</a></p>
